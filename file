@@ -1,0 +1,132 @@
+git init                    = Create a new Git repository
+
+git clone <url>            = Copy/download an existing repository
+
+git status                 = Check repository status and changed files
+
+git add .                  = Track/stage all files in current directory
+
+git add -A                 = Track/stage all files including deleted files
+
+git add <file>             = Track/stage a specific file
+
+git add *.js               = Track all JavaScript files
+
+git commit -m "message"    = Save staged changes to repository
+
+git commit -am "message"   = Add tracked files and commit in one command
+
+git commit --amend         = Modify the last commit
+
+git log                    = Show commit history
+
+git log --oneline          = Show short commit history
+
+git diff                   = Show unstaged changes
+
+git diff --staged          = Show staged changes
+
+git branch                 = List all local branches
+
+git branch <name>          = Create a new branch
+
+git checkout <branch>      = Switch to another branch
+
+git checkout -b <branch>   = Create and switch to new branch
+
+git switch <branch>        = Switch branch (modern way)
+
+git switch -c <branch>     = Create and switch branch (modern way)
+
+git branch -d <branch>     = Delete merged branch
+
+git branch -D <branch>     = Force delete branch
+
+git merge <branch>         = Merge branch into current branch
+
+git rebase main            = Reapply commits on top of main branch
+
+git stash                  = Temporarily save uncommitted changes
+
+git stash pop              = Restore stashed changes
+
+git stash list             = Show all stashes
+
+git remote add origin <url> = Connect local repo to remote repository
+
+git remote -v              = Show remote repository URLs
+
+git push                   = Upload local commits to remote repository
+
+git push -u origin main    = First push and set upstream branch
+
+git push origin main       = Push main branch to remote
+
+git push --force           = Force overwrite remote history
+
+git pull                   = Download and merge latest changes
+
+git pull origin main       = Pull changes from main branch
+
+git fetch                  = Download changes without merging
+
+git reset --soft HEAD~1    = Undo last commit but keep changes
+
+git reset --hard HEAD~1    = Remove last commit and changes completely
+
+git restore <file>         = Discard changes in file
+
+git restore --staged <file> = Unstage a file
+
+git rm <file>              = Delete file and track deletion
+
+git mv old new             = Rename/move file
+
+git tag                    = List all tags
+
+git tag v1.0               = Create a tag
+
+git push origin --tags     = Push tags to remote
+
+git show                   = Show commit details
+
+git reflog                 = Show all Git actions history
+
+git cherry-pick <id>       = Apply a specific commit
+
+git revert <id>            = Reverse a commit safely
+
+git clean -fd              = Remove untracked files and folders
+
+git branch -M main         = Rename current branch to main
+
+                                                        
+  
+                                                              Complete New Project Workflow
+
+    git init                   = Create repository
+
+git add .                  = Track all files
+
+git commit -m "Initial Commit" = Save files
+
+git branch -M main         = Rename branch to main
+
+git remote add origin <url> = Connect GitHub repository
+
+git push -u origin main    = Upload code to GitHub
+
+                                                                        Daily Workflow
+
+
+
+  git pull                   = Get latest code
+
+git status                 = Check changes
+
+git add .                  = Stage all changes
+
+git commit -m "Updated code" = Save changes
+
+git push                   = Upload changes
+  
