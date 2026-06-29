@@ -1,0 +1,14 @@
+apiversion: v1
+kind: service
+metadata:
+  name: clusertservice
+  label:
+    app: clusertservice
+spec:
+ type: clusterIp
+ selector: 
+  app: mypod
+ports:
+  port: 80
+  name: nginx
+  protocal: tcp
