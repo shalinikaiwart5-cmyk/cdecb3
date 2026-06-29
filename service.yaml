@@ -1,5 +1,5 @@
 apiversion: v1
-kind: service
+kind: Service
 metadata:
   name: clusertservice
   label:
@@ -9,6 +9,6 @@ spec:
  selector: 
   app: mypod
 ports:
-  port: 80
+ - port: 80
   name: nginx
   protocal: tcp
