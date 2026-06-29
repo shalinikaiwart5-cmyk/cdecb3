@@ -5,10 +5,11 @@ metadata:
   label:
     app: clusertservice
 spec:
- type: clusterIp
+ type: clusterIP
  selector: 
   app: mypod
 ports:
  - port: 80
+   #targetport: 80
   name: nginx
-  protocal: tcp
+  protocol: TCP
